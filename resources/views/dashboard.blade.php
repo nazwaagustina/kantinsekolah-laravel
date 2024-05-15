@@ -23,7 +23,7 @@
         }
         .sidebar h1 {
             font-size: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
         }
         .sidebar ul {
             list-style: none;
@@ -39,7 +39,7 @@
         }
         .main-content {
             flex: 1;
-            padding: 20px;
+            padding: 100px;
         }
         .search-bar {
             display: flex;
@@ -75,7 +75,7 @@
         }
         .menu-item img {
             width: 100%;
-            height: 150px;
+            height: 200px;
             object-fit: cover;
         }
         .menu-item .details {
@@ -128,9 +128,8 @@
                 <button><i class="fa fa-search"></i> Cari</button>
             </div>
             <div class="menu-grid">
-                <!-- Contoh Item Menu -->
                 <div class="menu-item">
-                    <img src="imgs/nasi ayam bumbu.jpeg" alt="Nasi Ayam Bumbu">
+                    <img src="img/nasi ayam bumbu.jpeg" alt="Nasi Ayam Bumbu">
                     <div class="details">
                         <h3>Nasi Ayam Bumbu</h3>
                         <p>Rp.10.000</p>
@@ -138,23 +137,29 @@
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="imgs/kue soes.jpeg" alt="Kue Soes">
+                    <img src="img/kue soes.jpeg" alt="Kue Soes">
                     <div class="details">
                         <h3>Kue Soes</h3>
                         <p>Rp.2.000</p>
-                        <button>Tambah</button>
+                        <button><i class="fa fa-shopping-cart"></i> Tambah</button>                    
+                </div>
+                <div class="menu-item">
+                    <img src="img/brownies.jpeg" alt="brownies">
+                    <div class="details">
+                        <h3>Brownies</h3>
+                        <p>Rp.3.000</p>
+                        <button><i class="fa fa-shopping-cart"></i> Tambah</button>                    
+                </div>
+                <div class="menu-item">
+                    <img src="img/onigiri.jpeg" alt="onigiri">
+                    <div class="details">
+                        <h3>Onigiri</h3>
+                        <p>Rp.3.000</p>
+                        <button><i class="fa fa-shopping-cart"></i> Tambah</button>                    
+                </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div>
-            <button><i class="fa fa-shopping-cart"></i> 0 Item</button>
-        </div>
-        <div>
-            Total: <strong>Rp. 0,00</strong>
-        </div>
-    </div>
+            </div>
 </body>
 </html>
